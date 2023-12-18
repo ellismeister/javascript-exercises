@@ -1,10 +1,10 @@
-const repeatString = function (string, times) {
+const repeatString = function (word, times) {
   if (times < 0) return 'ERROR';
-  let repeatedString = '';
+  let newString = '';
   for (let i = 0; i < times; i++) {
-    repeatedString += string;
+    newString += word;
   }
-  return repeatedString;
+  return newString;
 };
 
 // Do not edit below this line
